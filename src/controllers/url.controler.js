@@ -33,8 +33,6 @@ const getAnalytics =  asyncHandler(async (req, res) =>{
         totoalClicks : result.visitHistory.length,
         analytics : result.visitHistory
     })
-   
-
 })
 
 export {generateNewShortURL , getAnalytics}
